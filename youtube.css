@@ -1,0 +1,377 @@
+body{
+    background-color: #0f0f0f;
+    padding-left: 10px;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+.yt-logo, .yt-profile, .yt-searching{
+    height: 40px;
+    width: 80px;
+    border-radius: 4px;
+
+}
+.yt-logo{
+    width: 150px;
+}
+.yt-searching{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.searching>input{
+    width: 620px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius:40px 0 0 40px ; 
+    font-size: medium;
+    outline: none;
+    padding-left: 16px;
+}
+
+.searching>button{
+    width: 75px;
+    background-color: #222222;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 40px 40px 0;
+
+}
+.searching{
+    display: flex;
+    border: 1px solid rgb(59, 56, 56) ;
+    border-radius: 40px  40px;
+}
+.searching>input:hover{
+    outline: none;
+    }
+
+.voice{
+    height: 40px;
+    width: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: #222222;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+.yt-profile{
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.i1,.i2,.i3>img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: #222222;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+section{
+  margin-top: 15px;
+}
+section>.main-container{
+    height: 650px;
+    width: auto;
+    display: grid;
+    grid-template-columns:200px 10px auto ;
+    
+}
+.yt-left-main-container{
+    height: 650px;
+    width: 180px;
+    padding-left: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: rgba(86, 83, 83, 0.5) rgba(98, 96, 96, 0.1);
+    scrollbar-width: thin;
+ 
+}
+#first-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid gray;
+}
+.home,.subscriptions,.shorts{
+   width: 180px;
+   height: 35px;
+   border-radius:10px ;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin-left:px;
+   cursor: pointer;
+   font-size: medium;
+}
+.home:hover{
+    background-color:gray;
+}
+.subscriptions:hover{
+    background-color:gray;
+}
+.shorts:hover{
+    background-color:gray;
+}
+.subscriptions{
+    margin-bottom: 10px;
+}
+#second-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid gray;
+}
+.Your-channel,.you,.History,.Playlists,.Your-videos,.watch-later,.Liked-videos{
+    width: 180px;
+   height: 35px;
+   border-radius:10px ;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin-left:px;
+   cursor: pointer;
+   font-size: medium;
+}
+.you:hover{
+    background-color:gray;
+}
+.Your-channel:hover{
+    background-color:gray;
+}
+.History:hover{
+    background-color:gray;
+}
+.Playlists:hover{
+    background-color:gray;
+}
+.Your-videos:hover{
+    background-color:gray;
+}
+.watch-later:hover{
+    background-color:gray;
+}
+.Liked-videos:hover{
+    background-color:gray;
+}
+.you{
+    margin-top: 10px;
+}
+.Liked-videos{
+    margin-bottom: 10px;
+}
+#third-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid gray;
+}
+.trending,.music,.gaming,.sport{
+    width: 180px;
+   height: 35px;
+   border-radius:10px ;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin-left:px;
+   cursor: pointer;
+   font-size: medium;
+}
+.trending:hover{
+    background-color:gray;
+}
+.music:hover{
+    background-color:gray;
+}
+.gaming:hover{
+    background-color:gray;
+}
+.sport:hover{
+    background-color:gray;
+}
+.trending{
+    margin-top: 10px;
+}
+.sport{
+    margin-bottom: 10px
+}
+#fourth-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid gray;
+}
+.more,.youtube-premium,.youtube-studio,.youtube-music,.youtube-kids{
+   width: 180px;
+   height: 35px;
+   border-radius:10px ;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin-left:px;
+   cursor: pointer;
+   font-size: medium;
+}   
+.youtube-premium:hover{
+    background-color:gray;
+}
+.youtube-studio:hover{
+    background-color:gray;
+}
+.youtube-music:hover{
+    background-color:gray;
+}
+.youtube-kids:hover{
+    background-color:gray;
+}
+.more{
+    margin-top: 10px;
+}
+.youtube-kids{
+    margin-bottom: 10px;
+}
+#fifth-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid gray;
+}
+.setting,.report-history,.help,.send-feedback{
+    width: 180px;
+   height: 35px;
+   border-radius:10px ;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin-left:px;
+   cursor: pointer;
+   font-size: medium;
+}
+.setting:hover{
+    background-color:gray;
+}
+.report-history:hover{
+    background-color:gray;
+}
+.help:hover{
+    background-color:gray;
+}
+.send-feedback:hover{
+    background-color:gray;
+}
+.setting{
+    margin-top: 10px;
+}
+.send-feedback{
+    margin-bottom: 10px;
+}
+#sixth-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.first-1,.second-2,.third-3{
+    cursor: pointer;
+    font-size: medium;
+}
+.first-1{
+    margin-top: 10px;
+}
+.third-3{
+    font-size: small;
+}
+
+
+.main-bar{
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.main-bar>div{
+    width: auto;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #282626;
+}.main-bar>div:hover{
+    background-color: rgb(158, 151, 151);
+
+}
+.yt-right-main-container{
+    height: 650px;
+    width: 1295px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: rgba(86, 83, 83, 0.5) rgba(98, 96, 96, 0.1);
+    scrollbar-width: thin;
+}
+.yt-right-main-container-i1{
+    padding-top: 75px;
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 350px 350px 350px;
+}
+.yt-right-main-container-i1>div{
+    height: 300px;
+    width: 350px;
+    border-radius: 8px;
+    
+    
+}
+.first-thumbnail>img{
+    width:400px;
+     height:200px;
+     border-radius: 8px;
+     cursor: pointer;
+}
+.first-in>img{
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     cursor: pointer;
+}
+
+.first-in{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 9px;
+   
+}
+.first-description{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.first-i1{
+    padding-top:  5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.first-i2>img{
+    width: 15px;
+    height: 15px;
+}
+.first-i2{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
